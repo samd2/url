@@ -1,0 +1,169 @@
+commit 8dcdb73db540d2730ae4087bdb92473b5678d026
+Author: alandefreitas <alandefreitas@gmail.com>
+Date:   Tue Oct 11 17:25:33 2022 -0300
+
+    remove BOOST_URL_PCT_STRING_VIEW
+    
+    fix #590
+
+commit 67b444405736c1157d9c7a23bbd7470e3026a538
+Author: Vinnie Falco <vinnie.falco@gmail.com>
+Date:   Wed Oct 5 12:10:31 2022 -0700
+
+    Doc work
+
+commit 85c8b4e606bea303978e6a3246d1dd567b6f4df0
+Author: alandefreitas <alandefreitas@gmail.com>
+Date:   Mon Sep 12 17:27:36 2022 -0300
+
+    decode_view from pct_string_view
+    
+    fix #534
+
+commit c77e418fb5a4d298250ee9ca18b66b49369a0397
+Author: sdarwin <samuel.d.darwin@gmail.com>
+Date:   Fri Sep 9 15:56:06 2022 -0600
+
+    Change doc format from standalone to boostorg
+
+commit e4c253e7f30acc2eadafbfd9a5f099457ca0f5f3
+Author: Vinnie Falco <vinnie.falco@gmail.com>
+Date:   Fri Sep 2 23:27:33 2022 -0700
+
+    string_token work
+
+commit 1364a72ff547758db61867fad30cf514add91166
+Author: Vinnie Falco <vinnie.falco@gmail.com>
+Date:   Wed Sep 7 18:21:18 2022 -0700
+
+    segments tidying
+
+commit 46c91dd061f4a628ca349e655c2d0a30c9606caa
+Author: Vinnie Falco <vinnie.falco@gmail.com>
+Date:   Thu Sep 1 11:23:23 2022 -0700
+
+    javadocs for url_view_base
+
+commit 8478ace01aab41bcc26443018ebafa2f13761888
+Author: Vinnie Falco <vinnie.falco@gmail.com>
+Date:   Thu Sep 1 10:33:01 2022 -0700
+
+    refactor observers, modifiers, and strings
+    
+    * Decoded strings use std::string
+    * Encoded parameters use pct_string_view
+    * Host interface is refactored
+
+commit e0268cd3552e0585553d9d021f1907c51f0e3a27
+Author: Vinnie Falco <vinnie.falco@gmail.com>
+Date:   Thu Aug 25 11:52:55 2022 -0700
+
+    params container refactoring
+
+commit ad14488058a9b402c032f376719b4edf082e13c6
+Author: Vinnie Falco <vinnie.falco@gmail.com>
+Date:   Mon Aug 8 17:16:17 2022 -0700
+
+    Add parts diagram
+
+commit 614b96bb5725d9daa1671737de36f5031ac78d9a
+Author: Vinnie Falco <vinnie.falco@gmail.com>
+Date:   Fri Aug 5 12:51:18 2022 -0700
+
+    Doc work
+
+commit 4371c66e288355247e9143a1bac0540a46c7be9b
+Author: Vinnie Falco <vinnie.falco@gmail.com>
+Date:   Thu Aug 4 19:31:52 2022 -0700
+
+    url_view_base javadocs
+
+commit 24a4dc613a5a069c9fcd15270e597cf2857a884f
+Author: Vinnie Falco <vinnie.falco@gmail.com>
+Date:   Sun Oct 31 19:02:25 2021 -0700
+
+    broot is relative
+    
+    fix #75
+
+commit fcce528dc5923a1fe92ac8a93904eaefb6cbdb16
+Author: Vinnie Falco <vinnie.falco@gmail.com>
+Date:   Sat Oct 30 08:54:49 2021 -0700
+
+    Better reference
+
+commit d92d90dd6bf50d66a6a5e90cfa5aa00be8b7750d
+Author: Vinnie Falco <vinnie.falco@gmail.com>
+Date:   Sat Oct 9 10:31:19 2021 -0700
+
+    Doc work
+    
+    close #57
+
+commit 07853fd17de77c68c58d8e3a03cc65c517c50194
+Author: Vinnie Falco <vinnie.falco@gmail.com>
+Date:   Mon Sep 20 21:42:12 2021 -0700
+
+    docs show std::string_view
+
+commit ac8b187391aa33c89d5f61f72aec762dc5ce7650
+Author: sdarwin <samuel.d.darwin@gmail.com>
+Date:   Mon Sep 13 12:38:55 2021 -0500
+
+    Fix preview docs build develop.url.cpp.al
+
+commit b57db1f14cf17b7153fc48548142f6bc9261fcc8
+Author: Vinnie Falco <vinnie.falco@gmail.com>
+Date:   Sat Sep 11 17:20:22 2021 -0700
+
+    import stylesheet in doc build
+
+commit 12b68f1773e88850fe0b5af8afb08381d5d89d3f
+Author: Vinnie Falco <vinnie.falco@gmail.com>
+Date:   Sat Sep 11 15:12:54 2021 -0700
+
+    Define doc macro
+
+commit 423c9dbef5ae7e2dfa58ebc1ae9da8ca0a5f54d4
+Author: Vinnie Falco <vinnie.falco@gmail.com>
+Date:   Fri Sep 10 19:53:33 2021 -0700
+
+    doc work
+
+commit 93e0c70095f04b62750545bf001a0dec39499c14
+Author: Vinnie Falco <vinnie.falco@gmail.com>
+Date:   Wed Sep 8 08:50:58 2021 -0700
+
+    path view work
+
+commit f8dc27aaf9458978b1278425e72f04a1d1ae6e15
+Author: Dmitry Arkhipov <grisumbras@gmail.com>
+Date:   Fri Sep 3 21:05:48 2021 +0300
+
+    Update jam files
+
+commit 111b83cc4726f3144194dc3546e096d60ace317f
+Author: sdarwin <samuel.d.darwin@gmail.com>
+Date:   Wed Mar 10 16:40:56 2021 +0000
+
+    Replace sed-based customization with XSLT import
+
+commit 7f042e79be85826d56ed1b0a86e8b99355dbf503
+Author: sdarwin <samuel.d.darwin@gmail.com>
+Date:   Fri Aug 28 10:21:30 2020 -0500
+
+    update Jamfile for docs
+    
+    close #15
+
+commit 696a314ab0a4d689899337c79bf819f13b0fbf4c
+Author: Vinnie Falco <vinnie.falco@gmail.com>
+Date:   Thu Jan 16 18:33:53 2020 -0800
+
+    Fix doc
+
+commit ab84af954f368178a8465e1a8f12cd8e0a64b5f8
+Author: Vinnie Falco <vinnie.falco@gmail.com>
+Date:   Wed Nov 27 08:07:15 2019 -0800
+
+    Port beast uri
