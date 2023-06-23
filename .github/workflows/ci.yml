@@ -33,7 +33,7 @@ jobs:
     steps:
       - name: AWS Hosted Runners
         id: aws_hosted_runners
-        uses: samd2/aws-hosted-runners@v0.1.15
+        uses: cppalliance/aws-hosted-runners@v1.0.0
 
   build:
     defaults:
