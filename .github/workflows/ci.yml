@@ -36,7 +36,7 @@ jobs:
     steps:
       - name: AWS Hosted Runners
         id: aws_hosted_runners
-        uses: samd2/aws-hosted-runners@v1.0.2
+        uses: cppalliance/aws-hosted-runners@v1.0.0
         with:
           owner_list: "sdarwin openshift2"
 
@@ -69,7 +69,7 @@ jobs:
           trace-commands: true
 
   build:
-    needs: [cpp-matrix]
+    needs: [cpp-matrix, runner-selection]
     defaults:
       run:
         shell: bash
@@ -262,7 +262,7 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
 
   changelog:
-    needs: [cpp-matrix]
+    needs: [cpp-matrix, runner-selection]
     defaults:
       run:
         shell: bash
