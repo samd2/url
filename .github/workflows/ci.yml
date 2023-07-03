@@ -69,7 +69,7 @@ jobs:
           trace-commands: true
 
   build:
-    needs: [cpp-matrix,runner-selection]
+    needs: [cpp-matrix]
     defaults:
       run:
         shell: bash
@@ -262,7 +262,7 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
 
   changelog:
-    needs: [cpp-matrix,runner-selection]
+    needs: [cpp-matrix]
     defaults:
       run:
         shell: bash
