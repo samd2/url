@@ -36,9 +36,9 @@ jobs:
     steps:
       - name: AWS Hosted Runners
         id: aws_hosted_runners
-        uses: samd2/aws-hosted-runners@v1.0.1
+        uses: samd2/aws-hosted-runners@v1.0.2
         with:
-          owner_list: openshift2
+          owner_list: "sdarwin openshift2"
 
   cpp-matrix:
     needs: [runner-selection]
