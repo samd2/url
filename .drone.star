@@ -36,4 +36,5 @@ def main(ctx):
 
 
 # from https://github.com/boostorg/boost-ci
-load("@ci_automation//ci/drone/:functions.star", "linux_cxx", "windows_cxx", "osx_cxx", "freebsd_cxx")
+load("@ci_automation//ci/drone/:functions.star", "linux_cxx", "windows_cxx", "osx_cxx", "freebsd_cxx", "generate")
+
